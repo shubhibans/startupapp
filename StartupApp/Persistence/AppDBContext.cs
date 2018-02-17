@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StartupApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,7 @@ namespace StartupApp.Persistence
         {
 
         }
+
+        public DbSet<QuestionType> Questiontypes { get; set; }
     }
 }

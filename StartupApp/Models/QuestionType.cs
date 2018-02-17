@@ -8,6 +8,8 @@ namespace StartupApp.Models
 {
     public class QuestionType
     {
+        public int Id { get; set; }
+        
         public string Type { get; set; }
 
         public ICollection<Difficulty> Difficulty_Levels { get; set; }

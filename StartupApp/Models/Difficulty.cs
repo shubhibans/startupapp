@@ -7,7 +7,9 @@ namespace StartupApp.Models
 {
     public class Difficulty
     {
-        
+
+        public int Id { get; set; }
+
         public string Difficulty_Level { get; set; }
 
         public QuestionType QuestionType { get; set; }
