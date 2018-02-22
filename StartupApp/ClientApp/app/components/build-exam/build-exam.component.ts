@@ -8,6 +8,7 @@ import { BuildExamService } from "../../Services/build-exam.service";
 })
 export class BuildExamComponent implements OnInit {
     questionTypes;
+
     constructor(private buildExamService : BuildExamService) { }
    
     ngOnInit() {

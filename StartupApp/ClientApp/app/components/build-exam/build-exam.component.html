@@ -2,7 +2,8 @@
 <div class="form-group">
     <label for="subject">Subject</label>
     <select id="subject" class="form-control">
-       
+       <option id=""></option>
+     <option *ngFor="let q of questionTypes" id="{{q.id}}">{{q.type}}</option>
     </select>
  </div>
     <div class="formgroup">
